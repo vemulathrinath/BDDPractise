@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a39a181-67cb-43e3-a08b-9e9c013b4f03" name="Changes" comment="New Project Created">
-      <change afterPath="$PROJECT_DIR$/pytestCases/test_login.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="7a39a181-67cb-43e3-a08b-9e9c013b4f03" name="Changes" comment="Added 2 Test Cases">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytestCases/test_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/pytestCases/test_login.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +28,20 @@
       </GitPushTagMode>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "vemulathrinath"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="f73f1bcd-876b-441e-88b2-5e85bcc54e4c" />
+        <option name="url" value="https://github.com/vemulathrinath/BDDPractise.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 4
@@ -70,7 +83,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1708062776693</updated>
-      <workItem from="1708062779092" duration="1865000" />
+      <workItem from="1708062779092" duration="2403000" />
     </task>
     <task id="LOCAL-00001" summary="New Project Created">
       <option name="closed" value="true" />
@@ -80,7 +93,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708063456484</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added 2 Test Cases">
+      <option name="closed" value="true" />
+      <created>1708064708118</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1708064708118</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -99,6 +120,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="New Project Created" />
-    <option name="LAST_COMMIT_MESSAGE" value="New Project Created" />
+    <MESSAGE value="Added 2 Test Cases" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added 2 Test Cases" />
   </component>
 </project>
