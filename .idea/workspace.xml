@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a39a181-67cb-43e3-a08b-9e9c013b4f03" name="Changes" comment="Added 3 Test Case">
+    <list default="true" id="7a39a181-67cb-43e3-a08b-9e9c013b4f03" name="Changes" comment="Added few learnings related to pyTest">
+      <change afterPath="$PROJECT_DIR$/pytestCases/test_soft_assertions.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytestCases/test_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/pytestCases/test_login.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BackEndAutomation/PyTest_Learning_Feb24/test_feb_learning.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BackEndAutomation/PyTest_Learning_Feb24/test_feb_learning.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,12 +29,12 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "vemulathrinath"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;vemulathrinath&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -44,9 +43,9 @@
       </UrlAndAccount>
     </option>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2cR7werKEWowRNsJKiDnsiEWp9f" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -57,6 +56,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python tests.Python tests for test_login.test_login.executor": "Run",
+    "Python tests.Python tests for test_login.test_login_as.executor": "Run",
+    "Python tests.Python tests for test_soft_assertions.test_soft_assertions.executor": "Run",
+    "Python tests.Python tests in test_soft_assertions.py.executor": "Run",
     "Python tests.pytest in pytestCases.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -67,11 +70,75 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python tests.Python tests for test_soft_assertions.test_soft_assertions">
+    <configuration name="Python tests for test_login.test_login" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="BDDPractise" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pytestCases" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_login.test_login&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_login.test_login_as" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="BDDPractise" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pytestCases" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_login.test_login_as&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_soft_assertions.test_soft_assertions" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="BDDPractise" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pytestCases" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_soft_assertions.test_soft_assertions&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests in test_soft_assertions.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="BDDPractise" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pytestCases" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/pytestCases/test_soft_assertions.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="pytest in pytestCases" type="tests" factoryName="py.test" nameIsGenerated="true">
       <module name="BDDPractise" />
       <option name="ENV_FILES" value="" />
@@ -91,6 +158,14 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Python tests for test_soft_assertions.test_soft_assertions" />
+        <item itemvalue="Python tests.Python tests in test_soft_assertions.py" />
+        <item itemvalue="Python tests.Python tests for test_login.test_login" />
+        <item itemvalue="Python tests.Python tests for test_login.test_login_as" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -108,6 +183,9 @@
       <option name="presentableId" value="Default" />
       <updated>1708062776693</updated>
       <workItem from="1708062779092" duration="5880000" />
+      <workItem from="1708068792640" duration="2289000" />
+      <workItem from="1709553208067" duration="1572000" />
+      <workItem from="1710387418326" duration="3331000" />
     </task>
     <task id="LOCAL-00001" summary="New Project Created">
       <option name="closed" value="true" />
@@ -133,7 +211,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708065234685</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added few learnings related to pyTest">
+      <option name="closed" value="true" />
+      <created>1708069064202</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1708069064202</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -154,9 +240,11 @@
     <MESSAGE value="New Project Created" />
     <MESSAGE value="Added 2 Test Cases" />
     <MESSAGE value="Added 3 Test Case" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added 3 Test Case" />
+    <MESSAGE value="Added few learnings related to pyTest" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added few learnings related to pyTest" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/BDDPractise$pytest_in_pytestCases.coverage" NAME="pytest in pytestCases Coverage Results" MODIFIED="1708067972355" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pytestCases" />
+    <SUITE FILE_PATH="coverage/BDDPractise$pytest_in_pytestCases.coverage" NAME="pytest in pytestCases Coverage Results" MODIFIED="1708069864148" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pytestCases" />
+    <SUITE FILE_PATH="coverage/BDDPractise$.coverage" NAME=" Coverage Results" MODIFIED="1710387719006" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pytestCases" />
   </component>
 </project>
