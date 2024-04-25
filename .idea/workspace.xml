@@ -86,7 +86,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Behave.goggle_search.feature:Validating the google search feature">
+  <component name="RunManager" selected="Python tests.pytest in pytestCases">
     <configuration name="goggle_search.feature" type="PyBehaveRunConfigurationType" factoryName="Behave" temporary="true">
       <module name="BDDPractise" />
       <option name="ENV_FILES" value="" />
@@ -120,7 +120,6 @@
     </configuration>
     <configuration name="Python tests for test_login.test_login" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="BDDPractise" />
-      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
@@ -136,7 +135,6 @@
     </configuration>
     <configuration name="Python tests for test_soft_assertions.test_soft_assertions" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="BDDPractise" />
-      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
@@ -152,7 +150,6 @@
     </configuration>
     <configuration name="Python tests in test_webdriver_integration.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="BDDPractise" />
-      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
@@ -168,11 +165,9 @@
     </configuration>
     <configuration name="pytest in pytestCases" type="tests" factoryName="py.test" nameIsGenerated="true">
       <module name="BDDPractise" />
-      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="C:\Users\thrin\PycharmProjects\BDDPractise\.venv\Scripts\python.exe" />
-      <option name="SDK_NAME" value="Python 3.12 (BDDPractise)" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pytestCases" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -187,8 +182,6 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Behave.goggle_search.feature:Validating the google search feature" />
-        <item itemvalue="Behave.goggle_search.feature" />
         <item itemvalue="Python tests.Python tests in test_webdriver_integration.py" />
         <item itemvalue="Python tests.Python tests for test_login.test_login" />
         <item itemvalue="Python tests.Python tests for test_soft_assertions.test_soft_assertions" />
