@@ -1,2 +1,24 @@
-contexts-demo-1:
-  
+name: run web automated tests
+
+on:
+  workflow_dispatch:
+    inputs:
+      test-tags-to-include:
+        description: 'smoke or regression'
+        required: false
+        default: 'smoke'
+        type: choice
+        options:
+          - 'smoke'
+          - 'regression'
+jobs:
+  web-tests:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    services:
+      selenium-chrome:
+        image: selenium/standalone-chrome:116.0
+        options: >-
+          --shm-size "2g"
+        ports:
+          - 4444:4444
